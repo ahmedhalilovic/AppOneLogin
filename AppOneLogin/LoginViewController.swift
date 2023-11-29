@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
         
         Auth.auth().signIn(withEmail: email, password: password) { firebaseResult, error in
             if let e = error {
-                print("error")
+                print("error \(e)")
             }
             else {
               // Go back to home screen
