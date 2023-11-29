@@ -10,6 +10,7 @@ import FirebaseAuth
 import FirebaseCore
 import FirebaseFirestore
 
+// Ovo je neki komentar
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
